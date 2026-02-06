@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercícios de tabala</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr.destaque {
+            background-color: rgb(161, 101, 22);
+        }
+        .cnome{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>exercícios de tabela</h1>
+    
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="cidade">
+        <col class="csexo">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            
+            <th  scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">sexo</th>
+            <th scope="col">profissão</tr>
+        </th>
+
+        <tr>
+            <td>Maria</td>
+            <td>25</td>
+            <td>feminino</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Manuel</td>
+            <td>17</td>
+            <td>feminino</td>
+            <td>informãtico</td>
+        </tr>
+
+           <tr>
+            <td>Antonio</td>
+            <td>18</td>
+            <td>M</td>
+            <td>mercenário</td>
+        </tr>
+
+           <tr class="destaque">
+            <td >Josefa</td>
+            <td>44</td>
+            <td>feminino</td>
+            <td>manuel</td>
+        </tr>
+           <tr>
+            <td>Samuel</td>
+            <td>17</td>
+            <td>feminino</td>
+            <td>carpinteiro</td>
+        </tr>
+    </table>
+</body>
+</html>
